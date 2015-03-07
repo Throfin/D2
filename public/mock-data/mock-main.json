@@ -1,0 +1,75 @@
+{
+    "userid": 1,
+    "campaign": [
+        {
+            "id": 1,
+            "title": "The Northern Campaign",
+            "story": {"title": "The Beginning", "detail": "In the beginning was the great northern campaign. It all started when 3 dwarves walked into a bar..."},
+            "areas": [
+                {
+                    "id": 1,
+                    "name": "The Snow Cap",
+                    "story": {"title": "You climb to the snow caps...", "detail": "The glare from the sun hitting the snow looks like a thousand shining swords glinting from a fresh polish."},
+                    "encounters": [
+                        {
+                            "id": 1,
+                            "name": "Ice Orcs 3",
+                            "story": {"title": "Three blind orcs", "detail": "Suddenly you notice three of the glinting swords are coming at you. Roll initiative."},
+                            "dc": 10,
+                            "npcs": [
+                                {
+                                    "id": 1,
+                                    "name": "Orc Footman",
+                                    "desc": "He's got feet and a sword",
+                                    "num": 1,
+                                    "hp": 5
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Orc Archer",
+                                    "desc": "He's got feet and a bow",
+                                    "num": 1,
+                                    "hp": 5
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Orc Shaman",
+                                    "desc": "Don't worry about his feet! He's got mojo.",
+                                    "num": 1,
+                                    "hp": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Ice Orcs 2",
+                            "story": {"title": "Two great orcs", "detail": "The stumbling of two large creatures through the snow is hard to miss; but you managed to anyway."},
+                            "dc": 10,
+                            "npcs": [
+                                {
+                                    "id": 1,
+                                    "name": "Orc Axeman",
+                                    "desc": "He's got feet and a sword",
+                                    "num": 2,
+                                    "hp": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "The Lonely Mountain",
+                    "story": {"title": "A long tumble", "detail": "As you slide down the slippery slope of snowy slush, you suddenly find your self falling straight into a cavern. The drop is no more than 15 feet, but it is jarring."},
+                    "encounters": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Great Unkown",
+            "story": {"title": "It's unkown", "detail": "I have no idea what this campaign is about..."},
+            "areas": []
+        }
+    ]
+}
